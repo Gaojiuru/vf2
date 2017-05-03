@@ -11,21 +11,6 @@ import graph.Graph;
  * Created by Ruby on 2017/5/3.
  */
 public class VF2 {
-
-    /**
-     * Find matches given a query graph and a set of target graphs
-     * @param graphSet		Target graph set
-     * @param queryGraph	Query graph
-     * @return				The state set containing the mappings
-     */
-/*    public ArrayList<State> matchGraphSetWithQuery(Graph graph, Graph queryGraph){
-        ArrayList<State> stateSet = new ArrayList<State>();
-        matchGraphPair(graph, queryGraph);
-        System.out.println("Found " + stateSet.size() + " maps for: " + queryGraph);
-        System.out.println();
-        return stateSet;
-    }*/
-
     /**
      * Figure out if the target graph contains query graph
      * @param targetGraph	Big Graph
